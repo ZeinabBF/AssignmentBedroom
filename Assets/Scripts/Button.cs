@@ -16,15 +16,15 @@ public class Button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
 
     }
     public void Bulb()
     {
 
-         bulbLight.GetComponent<Renderer>().material.color = new Color(0, 204, 102);
-         bulbLight1.GetComponent<Renderer>().material.color = new Color(0, 204, 102);
-       
+        bulbLight.GetComponent<Renderer>().material.color = new Color(0, 204, 102);
+        bulbLight1.GetComponent<Renderer>().material.color = new Color(0, 204, 102);
+
     }
 
 }
